@@ -15,15 +15,17 @@ body{
     color: white;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 5%;
     
 }
 .navbar{
     padding:0 0 4.5rem;
 }
 .title-img{
+    position: absolute;
     transform: rotate(25deg);
-    width: 60%;
+    width: 20%;
+    right:23%;
    
 }
 .nav-item{
@@ -42,6 +44,9 @@ body{
     padding-bottom: 3%;
 }
 .feature{
+    background-color: white;
+    position: relative;
+    z-index: 1;
     text-align: center;
     padding: 5%;
 }
