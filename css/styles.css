@@ -1,8 +1,24 @@
-#title{
-    background-color: #ff4c68;
-}
 body{
     font-family: 'Ubuntu', sans-serif;
+}
+p{
+    color: #8f8f8f;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+/* title */
+#title{
+    background-color: #ff4c68;
 }
 .navbar-brand{
     font-weight: bold;
@@ -38,6 +54,8 @@ body{
 .download-btn{
     margin: 5% 3% 5% 0;
 }
+
+/* features */
 .fas{
     font-size: 3rem;
     color: #ff4c68;
@@ -59,32 +77,21 @@ body{
 .fa-bullseye:hover{
     color: #FF9494
 }
-.feature h3{
-    font-weight: bold;
-}
-p{
-    color: #8f8f8f;
-}
+
+/* testimonials */
 #testimonials{
     background-color: #FF9494;
     padding: 5%;
     text-align: center;
     color: white;
 }
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    line-height: 1.5;
-}
+
 .testimonials-img{
     border-radius: 100%;
     width: 10%;
     margin: 10px;
 }
-.carousel-inner{
-    height: 38rem;
-}
+
 #press{
     background-color: #FF9494;
     padding-bottom: 3%;
@@ -95,6 +102,8 @@ h2{
     width:10%;
     margin: auto 3%;
 }
+
+/* pricing */
 #pricing{
     padding: 5%;
     text-align: center;
@@ -103,11 +112,55 @@ h2{
 .pricing-col{
     padding: 3% 2%;
 }
-
 .card-header{
     background-color: #ff4c68;
 }
 .list-unstyled{
     height:6rem;
     color: #8f8f8f;
+}
+
+/* cta */
+#cta{
+    background-color: #ff4c68;
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+
+/* footer */
+#footer{
+    background-color: white;
+    padding: 5%;
+    text-align: center;
+    color: white;
+}
+.footer-icon{
+    font-size: 2rem;
+    color: black;
+    padding: 1% 2%;
+}
+.footer-p{
+    font-size: 1.5rem;
+}
+
+/* media query */
+@media (max-width: 1696px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        
+        position: static;
+        transform: rotate(0deg);
+        width: 50%;
+    }
+    #motto{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 708px){
+    .carousel-inner{
+        height: 38rem;
+    }
 }
