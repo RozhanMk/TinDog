@@ -75,7 +75,10 @@ h2{
 .testimonials-img{
     border-radius: 100%;
     width: 10%;
-    margin: 20px;
+    margin: 10px;
+}
+.carousel-inner{
+    height: 38rem;
 }
 #press{
     background-color: #FF9494;
@@ -87,6 +90,19 @@ h2{
     width:10%;
     margin: auto 3%;
 }
-.carousel-item{
-    height: 400px;
+#pricing{
+    padding: 5%;
+    text-align: center;
+
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.card-header{
+    background-color: #ff4c68;
+}
+.list-unstyled{
+    height:6rem;
+    color: #8f8f8f;
 }
